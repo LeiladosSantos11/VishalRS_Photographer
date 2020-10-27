@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-size: px;
+  box-sizing: content-box;
+}
+
+#navbar {
+  background-color: #233329;
+  height: 20%;
+}
+.col {
+  background-color: burlywood;
+}
+
+.main-title {
+  font-size: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  text-transform: capitalize;
+  padding: 10px;
+  text-align: center;
+  font-weight: 900;
+}
+#main-image {
+  background-image: url("../Images/Caravan.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  height: 80vh;
+  width: 100%;
+  opacity: 0.8;
+}
+/*Seeking a Front-end Developer to build a website for a skateboarding charity £££
+  We are looking for a mid to senior level Front-end Developer to work on turning our Sketch files to HTML. Must be proficient in HTML, CSS and Javascript to build a responsive website.
+  We are looking for someone to start as soon as possible for remote work.
+  Email Roanne if of interest on the email below! :)
+  roanne@studioetcetera.co.uk;
+
+   
+  */
