@@ -12,14 +12,21 @@ body {
   background-color: burlywood;
 }
 
-.main-title {
+.titles {
   font-size: 80px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: aliceblue;
   text-transform: capitalize;
-  padding: 10px;
   text-align: center;
   font-weight: 900;
+}
+
+h1 {
+  color: green;
+  scroll-padding-top: 10px;
+}
+
+h2 {
+  color: whitesmoke;
 }
 #main-image {
   background-image: url("../Images/Caravan.jpg");
@@ -27,9 +34,31 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
-  height: 80vh;
+  height: 90vh;
   width: 100%;
-  opacity: 0.8;
+}
+.col-md {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 25px;
+  height: 50vh;
+  width: 100%;
+  border: solid 5px green;
+}
+
+.picture1 {
+  background-image: url("../Images/Lockmaker.jpg");
+}
+.picture2 {
+  background-image: url("../Images/French\ Landscape.jpg");
+}
+.picture3 {
+  background-image: url("../Images/Mill\ Workers.jpg");
+}
+.picture4 {
+  background-image: url("../Images/Tea.jpg");
 }
 /*Seeking a Front-end Developer to build a website for a skateboarding charity £££
   We are looking for a mid to senior level Front-end Developer to work on turning our Sketch files to HTML. Must be proficient in HTML, CSS and Javascript to build a responsive website.
