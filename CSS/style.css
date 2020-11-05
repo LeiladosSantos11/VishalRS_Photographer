@@ -14,20 +14,25 @@ body {
 
 .titles {
   font-size: 80px;
+  font-weight: 900;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-transform: capitalize;
   text-align: center;
-  font-weight: 900;
+  
+  border: solid 2px whitesmoke;
+  padding: 5px;
 }
 
 h1 {
-  color: green;
-  scroll-padding-top: 10px;
+  color (#075c47);
+  
 }
 
 h2 {
   color: whitesmoke;
+  
 }
+
 #main-image {
   background-image: url("../Images/Caravan.jpg");
   background-position: center;
@@ -49,22 +54,14 @@ h2 {
 }
 
 .picture1 {
-  background-image: url("../Images/Lockmaker.jpg");
+  background-image: url("../Images/Tea.jpg");
 }
 .picture2 {
-  background-image: url("../Images/French\ Landscape.jpg");
+  background-image: url("../Images/Lockmaker.jpg");
 }
 .picture3 {
   background-image: url("../Images/Mill\ Workers.jpg");
 }
 .picture4 {
-  background-image: url("../Images/Tea.jpg");
+  background-image: url("../Images/French\ Landscape.jpg");
 }
-/*Seeking a Front-end Developer to build a website for a skateboarding charity £££
-  We are looking for a mid to senior level Front-end Developer to work on turning our Sketch files to HTML. Must be proficient in HTML, CSS and Javascript to build a responsive website.
-  We are looking for someone to start as soon as possible for remote work.
-  Email Roanne if of interest on the email below! :)
-  roanne@studioetcetera.co.uk;
-
-   
-  */
