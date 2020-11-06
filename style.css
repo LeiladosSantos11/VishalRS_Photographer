@@ -19,13 +19,15 @@ body {
   font-weight: 900;
 }
 
+/*
 .page-title {
-  border: solid 2px whitesmoke;
+  border: solid 5px green;
+  margin: 0px 30%;
 }
-
+*/
 h1 {
   padding-top: 35px;
-  color: #02382b;
+  color: rgb(226, 45, 21);
   margin-bottom: 0;
 }
 
