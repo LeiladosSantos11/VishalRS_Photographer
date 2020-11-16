@@ -6,6 +6,17 @@
   text-decoration: none;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -15,17 +26,11 @@ body {
   text-align: center;
 }
 
-:-webkit-any(article, aside, nav, section) h1 {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-
 div {
   padding-left: 0 !important;
   margin: 0 !important;
 }
 
-/* #373f47;*/
 #navbar {
   background-color: #f1ebe8;
   font-size: 15px;
@@ -58,7 +63,6 @@ li {
 
 a {
   list-style: none;
-
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
@@ -112,7 +116,16 @@ h2 {
 .subtitle {
   font-size: 30px;
   text-align: center;
-  color: #ce612efa;
+  color: #f2e8cf;
+  padding: 10px;
+  font-style: oblique;
+  font-weight: 1000;
+}
+
+.subtitle2 {
+  font-size: 30px;
+  text-align: center;
+  color: #bc4749;
   padding: 10px;
   font-style: oblique;
   font-weight: 1000;
@@ -135,17 +148,15 @@ h2 {
   background-size: cover;
   margin: 0 auto;
   height: 45vh;
-  width: 100%;
 }
 
-.col {
+.Vishal-pic {
   background-image: url("../Images/Vishal.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
   height: 130vh;
-  width: 100%;
   border: 0px solid #233339;
   color: white;
   padding: 20px;
@@ -154,7 +165,6 @@ h2 {
 .picture1 {
   background-image: url("../Images/Tea.jpg");
   height: 70vh;
-  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -166,6 +176,7 @@ h2 {
 
 .col-md:hover {
 }
+
 .picture2 {
   background-image: url("../Images/Mill\ Workers.jpg");
   background-position: center;
@@ -173,10 +184,10 @@ h2 {
   background-size: cover;
   display: flex;
   height: 70vh;
-  width: 100%;
   padding: 0px;
   border: 10px solid #233339;
 }
+
 .picture3 {
   background-image: url("../Images/Lockmaker.jpg");
   background-position: center;
@@ -184,11 +195,11 @@ h2 {
   background-size: cover;
   margin: 0 auto;
   height: 70vh;
-  width: 100%;
   display: flex;
   padding: 10px;
   border: 10px solid #233339;
 }
+
 .picture4 {
   background-image: url("../Images/French\ Landscape.jpg");
   background-position: center;
@@ -196,27 +207,10 @@ h2 {
   background-size: cover;
   margin: 0 auto;
   height: 70vh;
-  width: 100%;
   display: flex;
   padding: 10px;
   border: 10px solid #233339;
 }
-
-/*
-#Vishal-picture {
-  background-image: url("../Images/Vishal.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-  height: 90vh;
-  width: 100%;
-}
-
-/*
-.Vishal-picture {
-  background-image: url("../Images/Vishal.jpg");
-} */
 
 .p-quote {
   color: hsl(9, 76%, 3%);
@@ -231,23 +225,27 @@ h2 {
 }
 
 .session-about {
-  padding: 0 50px;
+  min-height: 1px;
   color: #f9f3dd;
-  margin: 0 auto;
   background-color: black;
   opacity: 0.6;
+  margin: 0 auto;
+}
+
+#About {
+  margin: 0 auto;
+  text-align: center;
 }
 
 p {
-  margin: 0 auto;
-  color: #f9f3dd;
-  font-style: ;
-  font-size: 16px;
+  color: #f2e8cf;
+  font-style: normal;
+  font-size: 25px;
   text-align: left;
-  padding: 0px 0px 10px 12px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .photo-content p {
   padding: 25px 5px;
-  margin: 0 auto;
 }
