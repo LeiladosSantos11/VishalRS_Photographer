@@ -17,26 +17,23 @@ body {
   text-align: center;
   font-family: "Apercu", sans-serif, Tahoma, Verdana;
 }
+
+/*****NavBar*****/
+
 .header {
   margin-top: 120px;
 }
-/*****NavBar*****/
+
 #navbar {
   background-color: #bc4749 !important;
   height: 10px;
   font-family: "HK Grotesk", Arial;
-
   position: fixed;
-  margin: 0px 0 0 5px;
-  z-index: 2;
-}
-
-a .navbrand {
-  color: !important;
-
+  margin: 5px 0 5px 0px;
   z-index: 1;
 }
 
+/*****Typography*****/
 .titles {
   color: #d5a021;
   font-weight: 1000;
@@ -47,88 +44,6 @@ a .navbrand {
   padding: 0;
 }
 
-/*
-.navbar-brand {
-  text-decoration: none;
-  color: #1c1c1c;
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  margin-left: 5px;
-  display: inline;
-}
-
-li {
-  padding: 0;
-  margin: 0 auto;
-  display: inline;
-  text-align: left;
-  opacity: 1;
-  font-size: 17px;
-  font-weight: 700;
-  margin-left: 7px;
-  font-family: "poppins";
-}
-
-.navbar-brand:hover {
-  color: #cf261a;
-}
-
-a {
-  list-style: none;
-  font-size: 18px;
-  font-weight: 700;
-  text-decoration: none;
-  font-family: "poppins";
-  text-decoration: none;
-  opacity: 0.75;
-  padding-top: 20px;
-}
-
-a:hover {
-  opacity: 1;
-}
-
-
-/*****Typography*****/
-/*
-.titles {
-  margin: 30px 0 0px 0px;
-  font-size: 60px;
-  font-weight: 300;
-  text-transform: capitalize;
-  text-align: center;
-}
-
-
-
-
-h1 {
-  box-sizing: border-box;
-  color: rgb(13, 151, 140);
-  display: block;
-  font-family: Roboto;
-  font-size: 66px;
-  font-weight: 300;
-  line-height: 1.1;
-  margin: 20px 0 0px;
-  padding-top: 20px;
-  text-align: center;
-  text-rendering: auto;
-  word-break: normal;
-}
-h2 {
-  padding: 0px 0px 0px 20px;
-  color: #f26430;
-  margin-top: auto;
-  font-size: 55px;
-  font-weight: 300;
-  text-transform: capitalize;
-  text-align: center;
-}
-*/
 .photos-title {
   padding: 25px 0 15px 20px;
   margin-top: 0;
@@ -183,7 +98,6 @@ h2 {
   opacity: 0.6;
   padding: 10px 0px 20px 30px;
   margin-left: 20px;
-  /*border: solid 10px #dbc7be; */
 }
 
 .about {
@@ -253,16 +167,13 @@ p {
   height: 90vh;
 }
 
-.col-md:hover {
-}
-
 .picture2 {
   background-image: url("../Images/Mill\ Workers.jpg");
 
   border: solid 25px #95adb6;
   height: 70vh;
 }
-/*border: solid 25px #8f122d; */
+
 .picture3 {
   background-image: url("../Images/Lockmaker.jpg");
 
@@ -274,18 +185,26 @@ p {
   background-image: url("../Images/French\ Landscape.jpg");
   height: 70vh;
 }
+
 .session-about {
   border: solid 25px #95adb6;
 }
 
+/*****Footer*****/
 #Footer {
   background-color: #88a0a8;
-  font-size: 30px;
-  font-weight: 400;
+
+  font-weight: 600;
   line-height: 36px;
   height: 70vh;
   box-sizing: border-box;
   color: #233339;
   text-align: left;
-  line-height: 24px;
+  line-height: 20px;
+}
+
+.contact-p {
+  margin-top: 15px;
+  font-size: 30px;
+  padding-left: 60px;
 }
