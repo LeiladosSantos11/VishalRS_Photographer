@@ -1,0 +1,210 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  overflow-x: hidden;
+  background-color: #233339 !important;
+  text-align: center;
+  font-family: "Apercu", sans-serif, Tahoma, Verdana;
+}
+
+/*****NavBar*****/
+
+.header {
+  margin-top: 120px;
+}
+
+#navbar {
+  background-color: #bc4749 !important;
+  height: 10px;
+  font-family: "HK Grotesk", Arial;
+  position: fixed;
+  margin: 5px 0 5px 0px;
+  z-index: 1;
+}
+
+/*****Typography*****/
+.titles {
+  color: #d5a021;
+  font-weight: 1000;
+  font-size: 30px;
+  line-height: 45px;
+  margin-top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.photos-title {
+  padding: 25px 0 15px 20px;
+  margin-top: 0;
+  color: #d5a021;
+  font-size: 50px;
+  font-weight: 1000;
+  text-align: center;
+}
+
+.subtitle,
+.subtitle2 {
+  font-size: 30px;
+  padding: 30px 5px 0 60px;
+  font-style: oblique;
+  font-weight: 1000;
+  margin-right: 15px;
+}
+
+.subtitle {
+  color: #f2e8cf;
+}
+
+.subtitle2 {
+  color: #233339;
+}
+
+.about-title {
+  font-size: 32px;
+  text-align: left;
+  color: #fbf9bf;
+  padding: 20px 0 10px 60px;
+  font-style: oblique;
+  font-weight: 800;
+}
+
+.contact {
+  font-size: 50px;
+  text-align: left;
+  color: #233339;
+  padding: 50px 0 15px 20px;
+  font-style: oblique;
+  font-weight: 800;
+  margin-left: 35px;
+}
+.p-quote {
+  color: hsl(9, 76%, 3%);
+  text-align: center;
+  background-color: #cbb3bf;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: 900;
+  opacity: 0.6;
+  padding: 10px 0px 20px 30px;
+  margin-left: 20px;
+}
+
+.about {
+  min-height: 1px;
+  color: #f7f1f1;
+  background-color: #1c1c1c;
+
+  padding-left: 30px;
+}
+
+#About {
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  color: #f2e8cf;
+  font-style: normal;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 10px;
+}
+
+.photo-content p {
+  padding: 25px 5px;
+}
+
+/*****Images*****/
+#main-image,
+.Vishal-pic,
+.picture1,
+.picture2,
+.picture3,
+.picture4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+#main-image {
+  background-image: url("../Images/Caravan_S.png");
+  border: solid 25px #daddd8;
+  height: 105vh;
+}
+
+.Vishal-pic {
+  background-image: url("../Images/Vishal.jpg");
+  height: 130vh;
+  border: 0px solid #233339;
+  color: white;
+  padding: 0px;
+}
+
+.picture1,
+.picture2,
+.picture3,
+.picture4 {
+  display: flex;
+  padding: 0px;
+  border: 10px solid #233339;
+}
+
+.picture1 {
+  background-image: url("../Images/Tea.jpg");
+  height: 90vh;
+}
+
+.picture2 {
+  background-image: url("../Images/Mill\ Workers.jpg");
+
+  border: solid 25px #95adb6;
+  height: 70vh;
+}
+
+.picture3 {
+  background-image: url("../Images/Lockmaker.jpg");
+
+  border: solid 25px #cbb3bf;
+  height: 85vh;
+}
+
+.picture4 {
+  background-image: url("../Images/French\ Landscape.jpg");
+  height: 70vh;
+}
+
+.session-about {
+  border: solid 25px #95adb6;
+}
+
+/*****Footer*****/
+#Footer {
+  background-color: #88a0a8;
+
+  font-weight: 600;
+  line-height: 36px;
+  height: 70vh;
+  box-sizing: border-box;
+  color: #233339;
+  text-align: left;
+  line-height: 20px;
+}
+
+.contact-p {
+  margin-top: 15px;
+  font-size: 30px;
+  padding-left: 60px;
+}
