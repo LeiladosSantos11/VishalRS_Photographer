@@ -29,7 +29,6 @@ body {
   padding: 0;
   overflow-x: hidden;
   background-color: var(--main-darkblue) !important;
-  text-align: center;
   font-family: "Apercu", sans-serif, Tahoma, Verdana;
 }
 
@@ -270,4 +269,3 @@ i {
   font-weight: 800;
   margin-left: 2.7em;
 }
-
