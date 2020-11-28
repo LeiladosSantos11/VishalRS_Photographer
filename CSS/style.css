@@ -68,7 +68,7 @@ a .navbrand {
   z-index: 1;
 }
 
-.titles {
+.titles #tittle1 {
   color: var(--main-yellow);
   font-weight: 1000;
   font-size: 2rem;
