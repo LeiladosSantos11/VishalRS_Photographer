@@ -1,0 +1,272 @@
+:root {
+  --main-darkblue: #233339;
+  --main-black: #1c1c1c;
+  --main-yellow: #d5a021;
+  --main-red: #bc4749;
+  --main-white: #f2e8cf;
+  --main-bege: #daddd8;
+  --blue: #88a0a8;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: var(--main-darkblue) !important;
+  text-align: center;
+  font-family: "Apercu", sans-serif, Tahoma, Verdana;
+}
+
+:-webkit-any(article, aside, nav, section) {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.header {
+  margin-top: 5em;
+}
+/*****NavBar*****/
+#navbar {
+  background-color: var(--main-red) !important;
+  height: 0.65em;
+  font-family: "HK Grotesk", Arial;
+  position: fixed;
+  margin: 0.5em 0 0 0.65em;
+  z-index: 1;
+}
+
+.header {
+  margin-top: 9em;
+}
+/*****NavBar*****/
+#navbar {
+  background-color: var(--main-red) !important;
+  height: 0;
+  font-family: "HK Grotesk", Arial;
+  position: fixed;
+  margin: 0 0 0 0.55em;
+  z-index: 1;
+}
+
+a .navbrand {
+  color: !important;
+  z-index: 1;
+}
+
+.titles {
+  color: var(--main-yellow);
+  font-weight: 1000;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+  padding: 0.4em 0 0 0;
+}
+
+/*****Typography*****/
+
+.photos-title {
+  padding: 0.6em;
+  color: var(--main-yellow);
+  font-size: 3rem;
+  font-weight: 1000;
+  text-align: center;
+  border: solid var(--main-white) 2px;
+}
+
+.subtitle,
+.subtitle2 {
+  padding: 0.65em;
+  font-style: oblique;
+  font-weight: 1000;
+  font-size: 3rem;
+  text-align: end;
+}
+
+.subtitle {
+  color: var(--main-white);
+}
+
+.subtitle2 {
+  color: var(--main-darkblue);
+}
+
+.about-title {
+  font-size: 3rem;
+  text-align: left;
+  color: #fbf9bf;
+  padding: 1em 0 0.65em 1.5em;
+  font-style: oblique;
+  font-weight: 800;
+}
+
+.contact {
+  font-size: 2.5rem;
+  text-align: left;
+  color: #f2e8cf;
+  padding: 0 0 0.65em 1.25em;
+  font-style: oblique;
+  font-weight: 800;
+  margin: 0 1.25em;
+}
+.p-quote {
+  color: hsl(9, 76%, 3%);
+  text-align: center;
+  background-color: #f7f1f1;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 900;
+  opacity: 0.6;
+  padding: 0.5em 0;
+}
+
+.about {
+  min-height: 1px;
+  color: #f7f1f1;
+  background-color: var(--main-black);
+  padding-left: 1em;
+}
+
+#About {
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  color: #f2e8cf;
+  font-style: normal;
+  font-size: 1.8rem;
+  text-align: left;
+  padding: 0 2.5em 0 2em;
+}
+
+.photo-content p {
+  padding: 25px 5px;
+}
+
+/*****Images*****/
+#main-image,
+.Vishal-pic,
+.picture1,
+.picture2,
+.picture3,
+.picture4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+#main-image {
+  background-image: url("../Images/Caravan.jpg");
+  border: solid 1.85em #daddd8;
+  height: 105vh;
+}
+
+.Vishal-pic {
+  background-image: url("../Images/Vishal.jpg");
+  height: 130vh;
+  border: 0 solid var(--main-darkblue);
+  color: white;
+}
+
+.picture1,
+.picture2,
+.picture3,
+.picture4 {
+  border: solid 1.85em;
+}
+
+.picture1 {
+  background-image: url("../Images/Tea.jpg");
+  height: 90vh;
+}
+
+.picture2 {
+  background-image: url("../Images/Mill\ Workers.jpg");
+  border-color: var(--main-bege);
+  height: 70vh;
+}
+
+.picture3 {
+  background-image: url("../Images/Lockmaker.jpg");
+  border-color: var(--main-bege);
+  height: 90vh;
+}
+
+.picture4 {
+  background-image: url("../Images/French\ Landscape.jpg");
+  border-color: var(--main-bege);
+  height: 70vh;
+}
+
+.session-about {
+  border: solid 1.85em var(--main-bege);
+}
+
+#Footer {
+  background-color: #88a0a8;
+  font-weight: 800;
+  height: 70vh;
+  box-sizing: border-box;
+  line-height: 1.5em;
+  margin-top: 0;
+  padding: 1.8em 0;
+}
+
+ul.socialmedia-widget {
+  backface-visibility: hidden;
+  border-width: 0;
+  box-sizing: border-box;
+  color: var(--main-red);
+  font-family: Montserrat;
+  font-size: 100%;
+  line-height: 24px;
+  list-style: none;
+  list-style: outside none none;
+  margin: 20px 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.socialmedia-widget:first-child {
+  margin-top: 0;
+}
+
+i {
+  height: 10vh;
+  font-size: 3.5rem;
+  color: var(--main-darkblue);
+  margin-left: 3em;
+}
+.icons {
+  display: inline-block;
+  justify-content: left;
+}
+
+.icons :hover {
+  color: var(--main-white);
+}
+
+#detail-title {
+  color: var(--main-darkblue);
+  font-size: 2.5rem;
+  padding: 2em;
+  font-weight: 800;
+  margin-left: 2.7em;
+}
