@@ -68,7 +68,7 @@ a .navbrand {
   z-index: 1;
 }
 
-.titles #tittle1 {
+.titles {
   color: var(--main-yellow);
   font-weight: 1000;
   font-size: 2rem;
@@ -225,22 +225,7 @@ p {
   box-sizing: border-box;
   line-height: 1.5em;
   margin-top: 0;
-  padding: 1.8em 0;
-}
-
-ul.socialmedia-widget {
-  backface-visibility: hidden;
-  border-width: 0;
-  box-sizing: border-box;
-  color: var(--main-red);
-  font-family: Montserrat;
-  font-size: 100%;
-  line-height: 24px;
-  list-style: none;
-  list-style: outside none none;
-  margin: 20px 0 0;
-  padding: 0;
-  text-align: center;
+  padding: 0em 0;
 }
 
 ul.socialmedia-widget:first-child {
