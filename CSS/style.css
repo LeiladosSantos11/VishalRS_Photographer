@@ -72,7 +72,7 @@ a .navbrand {
 
 /*****Typography*****/
 .main-title {
-  color: rgb(214, 124, 64);
+  color: var(--main-yellow);
   font-size: 4.5rem;
   font-weight: 1000;
   text-align: center;
