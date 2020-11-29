@@ -5,7 +5,8 @@
   --main-red: #bc4749;
   --main-white: #f2e8cf;
   --main-bege: #daddd8;
-  --blue: #88a0a8;
+  --main-blue: #88a0a8;
+  --green-olive: #526853;
 }
 
 *,
@@ -22,6 +23,7 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -31,12 +33,12 @@ body {
   background-color: var(--main-darkblue) !important;
   font-family: "Apercu", sans-serif, Tahoma, Verdana;
 }
-
+/*
 :-webkit-any(article, aside, nav, section) {
   margin-block-start: 0;
   margin-block-end: 0;
 }
-
+*/
 .header {
   margin-top: 5em;
 }
@@ -64,7 +66,6 @@ body {
 }
 
 a .navbrand {
-  color: !important;
   z-index: 1;
 }
 
@@ -85,7 +86,7 @@ a .navbrand {
   font-size: 3rem;
   font-weight: 1000;
   text-align: center;
-  border: solid var(--main-white) 2px;
+  border: solid var(--main-blue) 2px;
 }
 
 .subtitle,
@@ -151,11 +152,11 @@ p {
   font-style: normal;
   font-size: 1.8rem;
   text-align: left;
-  padding: 0 2.5em 0 2em;
+  padding: 0 2.5em 0 1.5em;
 }
 
 .photo-content p {
-  padding: 25px 5px;
+  padding: 1.7rem 0.35rem;
 }
 
 /*****Images*****/
@@ -173,14 +174,13 @@ p {
 
 #main-image {
   background-image: url("../Images/Caravan.jpg");
-  border: solid 1.85em #daddd8;
+  border: solid 1.85em var(--green-olive);
   height: 105vh;
 }
 
 .Vishal-pic {
   background-image: url("../Images/Vishal.jpg");
   height: 130vh;
-  border: 0 solid var(--main-darkblue);
   color: white;
 }
 
@@ -198,13 +198,13 @@ p {
 
 .picture2 {
   background-image: url("../Images/Mill\ Workers.jpg");
-  border-color: var(--main-bege);
+  border-color: var(--green-olive);
   height: 70vh;
 }
 
 .picture3 {
   background-image: url("../Images/Lockmaker.jpg");
-  border-color: var(--main-bege);
+  border-color: var(--main-blue);
   height: 90vh;
 }
 
@@ -215,21 +215,17 @@ p {
 }
 
 .session-about {
-  border: solid 1.85em var(--main-bege);
+  border: solid 1.85em var(--main-blue);
 }
 
 #Footer {
-  background-color: #88a0a8;
+  background-color: var(--main-blue);
   font-weight: 800;
   height: 70vh;
   box-sizing: border-box;
-  line-height: 1.5em;
-  margin-top: 0;
-  padding: 0em 0;
-}
-
-ul.socialmedia-widget:first-child {
-  margin-top: 0;
+  line-height: 1em;
+  margin-top: 1em;
+  padding: 1em;
 }
 
 i {
@@ -238,19 +234,33 @@ i {
   color: var(--main-darkblue);
   margin-left: 3em;
 }
-.icons {
-  display: inline-block;
-  justify-content: left;
-}
 
 .icons :hover {
   color: var(--main-white);
 }
 
 #detail-title {
-  color: var(--main-darkblue);
+  color: var(--main-white);
   font-size: 2.5rem;
-  padding: 2em;
+  padding: 1.5em;
   font-weight: 800;
-  margin-left: 2.7em;
+  margin-left: 3em;
+  padding: 1em;
+}
+ul h6 {
+  margin-left: 3em;
+  font-size: 2rem;
+  padding: 0;
+  color: var(--main-darkblue);
+}
+
+span {
+  color: var(--main-darkblue);
+  font-size: 2.3rem;
+}
+
+.madebyleila {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--main-bege);
 }
