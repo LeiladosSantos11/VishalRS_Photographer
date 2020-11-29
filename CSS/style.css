@@ -3,6 +3,7 @@
   --main-black: #1c1c1c;
   --main-yellow: #d5a021;
   --main-red: #bc4749;
+  --main-orange: rgb(214, 124, 64);
   --main-white: #f2e8cf;
   --main-bege: #daddd8;
   --main-blue: #88a0a8;
@@ -42,15 +43,6 @@ body {
 .header {
   margin-top: 5em;
 }
-/*****NavBar*****/
-#navbar {
-  background-color: var(--main-red) !important;
-  height: 0.65em;
-  font-family: "HK Grotesk", Arial;
-  position: fixed;
-  margin: 0.5em 0 0 0.65em;
-  z-index: 1;
-}
 
 .header {
   margin-top: 9em;
@@ -79,6 +71,13 @@ a .navbrand {
 }
 
 /*****Typography*****/
+.main-title {
+  color: rgb(214, 124, 64);
+  font-size: 4.5rem;
+  font-weight: 1000;
+  text-align: center;
+  padding-top: 20%;
+}
 
 .photos-title {
   padding: 0.6em;
@@ -132,9 +131,13 @@ a .navbrand {
   font-size: 2rem;
   font-weight: 900;
   opacity: 0.6;
-  padding: 0.5em 0;
+  padding: 0.5em;
+  text-align: center;
+  margin-left: 1em;
 }
-
+.session-about {
+  text-align: right;
+}
 .about {
   min-height: 1px;
   color: #f7f1f1;
@@ -173,9 +176,10 @@ p {
 }
 
 #main-image {
-  background-image: url("../Images/Caravan.jpg");
+  background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)),
+    url("../Images/Caravan.jpg");
   border: solid 1.85em var(--green-olive);
-  height: 105vh;
+  height: 90vh;
 }
 
 .Vishal-pic {
@@ -218,6 +222,7 @@ p {
   border: solid 1.85em var(--main-blue);
 }
 
+/*****Footer*****/
 #Footer {
   background-color: var(--main-blue);
   font-weight: 800;
@@ -231,7 +236,7 @@ i {
   height: 10vh;
   font-size: 3.5rem;
   color: var(--main-darkblue);
-  margin-left: 3em;
+  margin-left: 1em;
 }
 
 .icons :hover {
@@ -241,16 +246,16 @@ i {
 #detail-title {
   color: var(--main-white);
   font-size: 2.5rem;
-  padding: 1.5em;
   font-weight: 800;
-  margin-left: 3em;
-  padding: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  padding: 1em 0.3em;
 }
 ul h6 {
-  margin-left: 3em;
   font-size: 2rem;
   padding: 0;
   color: var(--main-darkblue);
+  display: inline;
 }
 
 span {
