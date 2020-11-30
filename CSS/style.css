@@ -45,16 +45,25 @@ body {
 }
 
 /*****NavBar*****/
-#navbar {
-  background-color: var(--main-red) !important;
-  height: 0;
-  font-family: "HK Grotesk", Arial;
-  position: fixed;
-  margin: 0;
-  z-index: 1;
-}
 
-a .navbrand {
+nav#navbar.navbar.sticky-top.navbar-light.bg-light {
+  align-items: center;
+  background-color: #bc4749;
+  box-sizing: border-box;
+  color: #212529;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "HK Grotesk",Arial;
+  font-size: 10px;
+  height: 0;
+  justify-content: space-between;
+  line-height: 15px;
+  list-style: outside none none;
+  margin: 0;
+  padding: .5rem 1rem;
+  position: fixed;
+  text-align: left;
+  text-decoration: none;
   z-index: 1;
 }
 
