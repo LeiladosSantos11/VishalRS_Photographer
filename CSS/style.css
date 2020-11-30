@@ -34,12 +34,8 @@ body {
   background-color: var(--main-darkblue) !important;
   font-family: "Apercu", sans-serif, Tahoma, Verdana;
 }
-/*
-:-webkit-any(article, aside, nav, section) {
-  margin-block-start: 0;
-  margin-block-end: 0;
-}
-*/
+
+
 .header {
   margin-top: 0px;
 }
@@ -47,17 +43,13 @@ body {
 .header {
   margin-top: 9em;
 }
+
+
 /*****NavBar*****/
 #navbar {
   background-color: var(--main-red) !important;
-  height: 0;
   font-family: "HK Grotesk", Arial;
   position: fixed;
-  margin: 0 0 0 0;
-  z-index: 1;
-}
-
-a .navbrand {
   z-index: 1;
 }
 
@@ -69,6 +61,7 @@ a .navbrand {
   padding: 15px 0 0 0;
 }
 
+
 /*****Typography*****/
 .main-title {
   color: burlywood;
@@ -76,7 +69,7 @@ a .navbrand {
   font-weight: 1000;
   text-align: center;
   padding-top: 1.5em;
-  margin-left: 1.5em;
+  margin-left: 1em;
 }
 
 .photos-title {
@@ -123,6 +116,7 @@ a .navbrand {
   font-weight: 800;
   margin: 0 1.25em;
 }
+
 .p-quote {
   color: hsl(9, 76%, 3%);
   text-align: center;
@@ -135,9 +129,11 @@ a .navbrand {
   text-align: center;
   margin-left: 1em;
 }
+
 .session-about {
   text-align: right;
 }
+
 .about {
   min-height: 1px;
   color: #f7f1f1;
@@ -161,6 +157,7 @@ p {
 .photo-content p {
   padding: 1.7rem 0.35rem;
 }
+
 
 /*****Images*****/
 #main-image,
@@ -222,6 +219,7 @@ p {
   border: solid 1.85em var(--main-blue);
 }
 
+
 /*****Footer*****/
 #Footer {
   background-color: var(--main-blue);
@@ -251,6 +249,7 @@ i {
   margin-top: 1em;
   padding: 1em 0.3em;
 }
+
 ul h6 {
   font-size: 2rem;
   padding: 0;
