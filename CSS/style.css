@@ -46,7 +46,7 @@ body {
 
 /*****NavBar*****/
 
-nav#navbar.navbar.sticky-top.navbar-light.bg-light {
+nav#navbar.navbar.sticky-top.navbar {
   align-items: center;
   background-color: #bc4749;
   box-sizing: border-box;
