@@ -44,12 +44,17 @@ body {
   margin-top: 9em;
 }
 
-
 /*****NavBar*****/
 #navbar {
   background-color: var(--main-red) !important;
+  height: 0;
   font-family: "HK Grotesk", Arial;
   position: fixed;
+  margin: 0;
+  z-index: 1;
+}
+
+a .navbrand {
   z-index: 1;
 }
 
