@@ -1,10 +1,11 @@
 :root {
   --main-darkblue: #233339;
   --main-black: #1c1c1c;
+  --main-white: #dfcdcd;
   --main-yellow: #d5a021;
   --main-red: #bc4749;
   --main-orange: rgb(214, 124, 64);
-  --main-white: #f2e8cf;
+  --midle-beige: #deb887;
   --main-bege: #daddd8;
   --main-blue: #88a0a8;
   --green-olive: #526853;
@@ -34,8 +35,12 @@ body {
   background-color: var(--main-darkblue) !important;
   font-family: "Apercu", sans-serif, Tahoma, Verdana;
 }
-
-
+/*
+:-webkit-any(article, aside, nav, section) {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+*/
 .header {
   margin-top: 0px;
 }
@@ -43,27 +48,17 @@ body {
 .header {
   margin-top: 9em;
 }
-
 /*****NavBar*****/
-
-nav#navbar.navbar.sticky-top.navbar {
-  align-items: center;
-  background-color: #bc4749;
-  box-sizing: border-box;
+#navbar {
   background-color: var(--main-red) !important;
-  display: flex;
-  flex-wrap: wrap;
-  font-family: "HK Grotesk",Arial;
-  font-size: 10px;
   height: 0;
-  justify-content: space-between;
-  line-height: 15px;
-  list-style: outside none none;
-  margin: 0;
-  padding: .5rem 1rem;
+  font-family: "HK Grotesk", Arial;
   position: fixed;
-  text-align: left;
-  text-decoration: none;
+  margin: 0;
+  z-index: 1;
+}
+
+a .navbrand {
   z-index: 1;
 }
 
@@ -75,13 +70,13 @@ nav#navbar.navbar.sticky-top.navbar {
   padding: 15px 0 0 0;
 }
 
-
 /*****Typography*****/
 .main-title {
-  color: burlywood;
+  color: #deb887;
   font-size: 4.5rem;
-  font-weight: 1000;
+  font-weight: 900;
   text-align: center;
+  padding: 15%;
 }
 
 .photos-title {
@@ -113,8 +108,8 @@ nav#navbar.navbar.sticky-top.navbar {
 .about-title {
   font-size: 3rem;
   text-align: left;
-  color: #fbf9bf;
-  padding: 1em 0 0.65em 1.5em;
+  color: var(--midle-beige);
+  padding: 1em 0 0.65em 1em;
   font-style: oblique;
   font-weight: 800;
 }
@@ -128,7 +123,6 @@ nav#navbar.navbar.sticky-top.navbar {
   font-weight: 800;
   margin: 0 1.25em;
 }
-
 .p-quote {
   color: hsl(9, 76%, 3%);
   text-align: center;
@@ -141,11 +135,9 @@ nav#navbar.navbar.sticky-top.navbar {
   text-align: center;
   margin-left: 1em;
 }
-
 .session-about {
   text-align: right;
 }
-
 .about {
   min-height: 1px;
   color: #f7f1f1;
@@ -169,7 +161,6 @@ p {
 .photo-content p {
   padding: 1.7rem 0.35rem;
 }
-
 
 /*****Images*****/
 #main-image,
@@ -231,7 +222,6 @@ p {
   border: solid 1.85em var(--main-blue);
 }
 
-
 /*****Footer*****/
 #Footer {
   background-color: var(--main-blue);
@@ -254,14 +244,13 @@ i {
 }
 
 #detail-title {
-  color: var(--main-white);
+  color: var(--main-bege);
   font-size: 2.5rem;
   font-weight: 800;
   margin-left: 1em;
   margin-top: 1em;
   padding: 1em 0.3em;
 }
-
 ul h6 {
   font-size: 2rem;
   padding: 0;
