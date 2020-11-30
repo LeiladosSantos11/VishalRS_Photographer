@@ -50,7 +50,7 @@ nav#navbar.navbar.sticky-top.navbar-light.bg-light {
   align-items: center;
   background-color: #bc4749;
   box-sizing: border-box;
-  color: #212529;
+  background-color: var(--main-red) !important;
   display: flex;
   flex-wrap: wrap;
   font-family: "HK Grotesk",Arial;
