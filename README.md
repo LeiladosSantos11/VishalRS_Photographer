@@ -12,7 +12,7 @@ What I most like adding on to this website were the principles of ux design:
 3. Repetition
 4. White space
 5. Color
-6.Typography
+6. Typography
 7. Accessibility 
 
 
