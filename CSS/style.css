@@ -93,7 +93,7 @@ a .navbrand {
   padding: 0.65em;
   font-style: oblique;
   font-weight: 1000;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: end;
 }
 
@@ -109,9 +109,10 @@ a .navbrand {
   font-size: 3rem;
   text-align: left;
   color: var(--midle-beige);
-  padding: 1em 0 0.65em 1em;
+  padding: 1em 0em;
   font-style: oblique;
   font-weight: 800;
+  margin-left: 0.5em;
 }
 
 .contact {
@@ -135,19 +136,16 @@ a .navbrand {
   text-align: center;
   margin-left: 1em;
 }
-.session-about {
-  text-align: right;
+
+#About {
+  margin: 0 auto;
+  padding-left: 6em;
 }
+
 .about {
   min-height: 1px;
   color: #f7f1f1;
   background-color: var(--main-black);
-  padding-left: 1em;
-}
-
-#About {
-  margin: 0 auto;
-  text-align: center;
 }
 
 p {
@@ -155,7 +153,6 @@ p {
   font-style: normal;
   font-size: 1.8rem;
   text-align: left;
-  padding: 0 2.5em 0 1.5em;
 }
 
 .photo-content p {
@@ -176,7 +173,7 @@ p {
 }
 
 #main-image {
-  background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.2)),
     url("../Images/Caravan.jpg");
   border: solid 1.85em var(--green-olive);
   height: 90vh;
